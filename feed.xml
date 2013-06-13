@@ -8,6 +8,7 @@ layout: none
         <atom:link href="{{site.url}}/feed.xml" rel="self" type="application/rss+xml"/>
 		<description>{{ site.description }}</description>
         <copyright>&#xA9; (C) whit. 2013</copyright>    
+        <itunes:author>Jervis Whitley</itunes:author>
         
         <itunes:owner>
             <itunes:name>Jervis Whitley </itunes:name>

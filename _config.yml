@@ -1,4 +1,5 @@
 name: WindFront
+description: "A weekly wrap up of the world of energy. We deep dive to find the latest concerning the Wind, Solar and Power Industry in Australia and around the world."
 pygments: false
 permalink: /:title
 url: http://www.windfront.com
