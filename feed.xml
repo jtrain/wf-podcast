@@ -1,14 +1,19 @@
 ---
 layout: none
 ---
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" >
+<?xml version="1.0" encoding="UTF-8"?><rss xml:lang="en-US" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" >
     <channel>
 		<title>{{ site.name }}</title>
-		<description>{{ site.description }}</description>
 		<link>{{ site.url }}</link>
+        <atom:link href="{{site.url}}/feed.xml" rel="self" type="application/rss+xml"/>
+		<description>{{ site.description }}</description>
         <copyright>&#xA9; (C) whit. 2013</copyright>    
-		<link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
         
+        <itunes:owner>
+            <itunes:name>Jervis Whitley </itunes:name>
+            <itunes:email>jervisw@whit.com.au</itunes:email>
+        </itunes:owner>
+        <itunes:image href="{{site.url}}/images/windfront.png" />
         <itunes:category text="Science &amp; Medicine"/>
         
 		{% for post in site.posts  %}
