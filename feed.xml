@@ -1,0 +1,28 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" >
+    <channel>
+		<title>{{ site.name }}</title>
+		<description>{{ site.description }}</description>
+		<link>{{ site.url }}</link>
+        <copyright>&#xA9; (C) whit. 2013</copyright>    
+		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+        
+        <itunes:category text="Science &amp; Medicine"/>
+        
+		{% for post in site.posts  %}
+            {% if post.mp3 %}
+			<item>
+				<title>{{ post.title }}</title>
+				<description>{{ post.content | xml_escape }}</description>
+				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<link>{{ site.url }}{{ post.url }}</link>
+                <itunes:duration>{{post.mp3_duration}}</itunes:duration>
+				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+                <enclosure url="{{ site.url }}/downloads/{{ post.mp3 }}" length="{{post.mp3_length}}" type="audio/mpeg" />
+			</item>
+            {% endif %}
+		{% endfor %}
+	</channel>
+</rss>
