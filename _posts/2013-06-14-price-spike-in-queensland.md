@@ -21,5 +21,36 @@ wind usage as it happens.
 
 Do you think ENERGEX is experiencing the "Death Spiral"? Leave your comments below, and I'll read through on next week's show.
 
+### Show Notes
+
+$6.6M wind farm revenue was calculated from the following wind farm locations:
+
+    'BLUFF1': "SA1",
+    'CAPTL_WF': "NSW1",
+    'CATHROCK': "SA1",
+    'CLEMGPWF': "SA1",
+    'CNUNDAWF': "SA1",
+    'CULLRGWF': "NSW1",
+    'GUNNING1': "NSW1",
+    'HALLWF1': "SA1",
+    'HALLWF2': "SA1",
+    'LKBONNY1': "SA1",
+    'LKBONNY2': "SA1",
+    'LKBONNY3': "SA1",
+    'MACARTH1': "VIC1",
+    'MTMILLAR': "SA1",
+    'MUSSELR1': "TAS1",
+    'NBHWF1': "SA1",
+    'OAKLAND1': "VIC1",
+    'PORTWF': "VIC1",
+    'SNOWTWN1': "SA1",
+    'STARHLWF': "SA1",
+    'WATERLWF': "SA1",
+    'WAUBRAWF': "VIC1",
+    'WOODLWN1': "NSW1",
+    'WPWF': "SA1",
+    'YAMBUKWF': "VIC1"
+
+It was for the week between (Wednesday) 5th June and (Tuesday) 11th of June
 
 
