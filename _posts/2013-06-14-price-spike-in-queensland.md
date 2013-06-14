@@ -53,4 +53,7 @@ $6.6M wind farm revenue was calculated from the following wind farm locations:
 
 It was for the week between (Wednesday) 5th June and (Tuesday) 11th of June
 
+#### Correction
+In the podcast I mentioned that the wind industry earned $6.6M, but I neglected Woolnorth.
+Somehow it wasn't on the list. Including that rather large wind farm brings the total to $6.9M
 
