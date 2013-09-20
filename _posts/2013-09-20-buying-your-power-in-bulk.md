@@ -64,5 +64,5 @@ Does knowing about the kickbacks change the way you view switch and save website
 ### The top wind farms
 
 - North Brown Hill: $690k
-- Macathur: $560k
+- Macarthur: $560k
 - Waterloo: $550k
