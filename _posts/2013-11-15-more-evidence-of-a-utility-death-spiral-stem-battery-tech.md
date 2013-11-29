@@ -3,7 +3,7 @@ layout: post
 title: "Utility Death Spiral Companies turn to battery tech"
 mp3: "windfront-ep23-nov15.mp3"
 mp3_length: "2800301"
-mp3_duration: "2:55"
+mp3_duration: "4:45"
 ---
 
 ### A new business model for battery tech
@@ -34,7 +34,7 @@ account for the lower winter demand charges.
 
 That number doesn't look so great compared to the cost of the battery. One of
 the use cases was for when patrons want airconditioning turned on. Air conditioning
-is a fairly sustained high load which the 50kW battery wouldn't supply for very long.
+is a fairly sustained high load which the 54kWh battery wouldn't supply for very long.
 
 ### And yet people are buying into battery tech
 And so I see this as further evidence of a utility death spiral. Future years will
